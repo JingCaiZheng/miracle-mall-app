@@ -1,0 +1,22 @@
+.navigation{
+  position: fixed;
+  z-index: 10000;
+  bottom: 0;
+  width: 7.5rem;
+  height: 1.2rem;
+  display: flex;
+  background-color: #ffffff;
+  .item{
+    width: 1.5rem;
+    padding-top: .2rem;
+    text-align: center;
+    >p{
+      &.glay{
+        color: black;
+      }
+      &.blue{
+        color: #6161F2;
+      }
+    }
+  }
+}

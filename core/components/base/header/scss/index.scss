@@ -1,0 +1,32 @@
+.m-header{
+  height: .88rem;
+  position: fixed;
+  z-index: 10000;
+  width: 7.5rem;
+  .header{
+    position: relative;
+    width: 7.5rem;
+    height: .88rem;
+    .left{
+      position: absolute;
+      left: .32rem;
+      height: .48rem;
+      width: .48rem;
+      img{
+        margin-top: .2rem;
+        height: .48rem;
+        width: .48rem;
+      }
+    }
+    .center{
+      color: black;
+      >p{
+        text-align: center;
+        line-height: .88rem;
+        font-family: PingFangSC;
+        font-weight: 500;
+        font-size: .36rem;
+      }
+    }
+  }
+}
